@@ -61,4 +61,6 @@ biblioteca1.livros.push({
     disponibilidade: "sim",
 })
 
+delete biblioteca1.livros[0]
+
 console.log(biblioteca1, biblioteca2, biblioteca3)
